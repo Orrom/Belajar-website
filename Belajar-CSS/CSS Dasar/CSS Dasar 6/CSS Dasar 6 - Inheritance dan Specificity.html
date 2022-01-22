@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inheritance and Specificity</title>
+</head>
+<body>
+    <h1>Inheritance and Specificity</h1>
+    <h2>1. Inheritance</h2>
+
+    <p>Inheritance itu menurunkan style dari leluhurnya, misal <xmp><a href=""></xmp>gaakan berubah warna ngikutin leluhur kaya <xmp><body></xmp> gitu, jadi harus dikasih keterangan misal color:inherit; gitu</p>
+    <a href="../CSS Dasar 4/CSS Dasar 4 - Background.html">Contoh yang ga berubah</a>
+     <br>
+    <a href="../CSS Dasar 3/CSS Dasar 3 - Text Styling.html" class="a1">Contoh yang berubah</a>
+
+    <h2>2. Specificity</h2>
+    <p>Specificity menerangkan level kekuatan css. Selain berdasarkan urutan di file CSS, ada yang urutannya begini:</p>    
+        <ol>
+            <li>Element (body, h1, p, dll) = 1</li>
+            <li>Class (.) = 10</li>
+            <li>Id (#) = 100</li>
+            <li>Inline (dalem html) = 1000</li>
+        </ol>
+    <p>Keterangannya, semakin besar maka akan lebih didahulukan untuk muncul</p>
+</body>
+</html>

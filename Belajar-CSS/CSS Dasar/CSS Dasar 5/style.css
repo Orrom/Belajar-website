@@ -1,0 +1,22 @@
+.table1 li:first-child a:link {
+    color: maroon;
+}
+.table1 li:nth-child(2) a:hover {
+    color: red;
+}
+.table1 li:nth-child(3) a:active {
+    color: khaki;
+}
+.table1 li:last-child a:visited {
+    color: lightseagreen;
+}
+
+.table2 li:first-child {
+    color: darkred;
+}
+.table2 li:nth-child(2) {
+    color: lawngreen;
+}
+.table2 li:last-child {
+    color: dimgray;
+}

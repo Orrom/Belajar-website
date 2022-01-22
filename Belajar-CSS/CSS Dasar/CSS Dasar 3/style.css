@@ -1,0 +1,13 @@
+body{
+    color: darkred;
+    text-align: justify;
+    text-indent: 0px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+.p2{
+    text-indent: 50px;
+}

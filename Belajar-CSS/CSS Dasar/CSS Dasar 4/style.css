@@ -1,0 +1,7 @@
+body{
+    background-color: gray;
+    background-image: url(image/herringbone.png);
+    background-position-x: bottom;
+    background-position-y: top;
+    background-repeat: initial;
+}

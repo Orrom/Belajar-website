@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 20, 20);
+    background-color: beige;
+}
+
+.a1 {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.a1:active {
+    color: orangered;
+}
