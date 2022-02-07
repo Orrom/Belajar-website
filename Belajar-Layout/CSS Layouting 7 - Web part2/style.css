@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #121a49;
+}
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background-color: #d2dadc;
+}
+
+#container {
+    box-shadow: -2px 2px 20px 0 gray, 2px -2px 20px 0 gray;
+    width: 960px;
+    background-color: #eef0eb;
+    padding: 5px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.header {
+    background-color: #eef0eb;
+}
+
+.logo {
+    padding: 17px 0 17px 26px;
+    float: left;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar {
+    padding: 9px 9px 9px 0;
+    float: right;
+}
+
+.navbar li {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.navbar a {
+    font-weight: bold;
+    display: block;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+}
+
+.aktif a {
+    background-color: #121a49;
+    color: #eef0eb;
+    border-radius: 15px;
+}
+
+.navbar a:hover {
+    border: 2px solid #121a49;
+    border-radius: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.hero {
+    background-color: #eef0eb;
+    height: 523px;
+    background-position: 0 -60px;
+    background-image: url(img/hero.png);
+}
+
+.content {
+    box-sizing: border-box;
+    float: left;
+    width: 600px;
+    margin: 45px 25px;
+}
+
+.content h2 {
+    padding: 5px;
+    font-size: 32px;
+}
+
+#penulis {
+    font-size: 13px;
+}
+
+.penulis a{
+    color: #d78463;
+}
+
+.content p {
+    font-size: 17px;
+    padding: 5px;
+    font-weight: 450;
+}
+
+.sidebar {
+    float: right;
+    margin: 45px 25px;
+    width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.profil {
+    border:  2px solid #121a49;
+    border-radius: 10px;
+}
+
+.foto {
+    border-radius: 8px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-image: url(img/profil.jpg);
+}
+
+.biodata {
+    padding-top: 28px;
+    padding-left: 5px;
+    float:left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #121a49;
+    margin: -5px;
+    display: block;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
+.copyright {
+    text-align: center;
+    color: #d2dadc;
+}

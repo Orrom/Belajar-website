@@ -1,0 +1,22 @@
+div {
+    width: 300px;
+    height: 300px;
+    
+/** ini penting banget loh box sizing **/
+    box-sizing: border-box;
+/** kalo bingung tonton video WPU ini
+
+https://www.youtube.com/watch?v=s2BB3v3j5VA
+
+di menit 14.17 **/
+
+    color: #ffeaec;
+    background-color: #6db1bf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 40px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #301a4b;
+}

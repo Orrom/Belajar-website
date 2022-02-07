@@ -1,0 +1,36 @@
+/*
+    Overflow ada 4 jenis, yakni: 
+
+    1. overflow: visible;
+    2. overflow: auto;
+    3. overflow: hidden;
+    4. overflow: scroll;
+
+*/
+.container {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    background-color: beige;
+}
+
+.judulkonten {
+    height: 50px;
+    background-color: rgb(153, 115, 66);
+    padding: 10px;
+    color: white;
+}
+
+.judulkonten h3 {
+    font-weight: normal;
+}
+
+.konten {
+    height: 150px; /* ini penting buat overflow, kalau gaada gabisa jalan */
+    background-color: blanchedalmond;
+    padding: 0 3px;
+    text-align:left;
+    text-indent: 25px;
+    overflow: scroll;
+}
+

@@ -1,0 +1,23 @@
+body {
+    width: 960px;
+    border: 1px solid seagreen;
+    margin: auto;
+}
+
+.satu, .dua, .tiga {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: #362222;
+}
+
+.dua {
+    background-color: #b3541e;
+    float:right; 
+}
+
+.tiga {
+    background-color: #ffeded;
+}
